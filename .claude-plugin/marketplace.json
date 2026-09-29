@@ -1,0 +1,21 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "non-anthropic-endpoint-fix",
+  "description": "Fixes Claude Code tool calls that hang when ANTHROPIC_BASE_URL points at a non-Anthropic endpoint such as DeepSeek, OpenRouter, or a gateway.",
+  "owner": {
+    "name": "RichardRamirez123",
+    "url": "https://github.com/RichardRamirez123"
+  },
+  "plugins": [
+    {
+      "name": "third-party-endpoint-doctor",
+      "description": "Diagnoses and fixes stalled tool calls on Claude Code when ANTHROPIC_BASE_URL points at a non-Anthropic endpoint such as DeepSeek, OpenRouter, or a gateway.",
+      "author": {
+        "name": "RichardRamirez123"
+      },
+      "category": "diagnostics",
+      "source": "./third-party-endpoint-doctor",
+      "homepage": "https://github.com/RichardRamirez123/NonAnthropicEndpointFix"
+    }
+  ]
+}

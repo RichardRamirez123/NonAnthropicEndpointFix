@@ -83,12 +83,15 @@ MCP search server.
 ## Install
 
 ```
-/plugin marketplace add <this-repo>
-/plugin install third-party-endpoint-doctor
+/plugin marketplace add RichardRamirez123/NonAnthropicEndpointFix
+/plugin install third-party-endpoint-doctor@non-anthropic-endpoint-fix
 ```
 
-Or, without a marketplace, copy this directory into `~/.claude/skills/` sibling
-locations as your setup requires, or point at it directly.
+Or load it from a local checkout without a marketplace:
+
+```
+claude --plugin-dir /path/to/NonAnthropicEndpointFix/third-party-endpoint-doctor
+```
 
 ## Use
 
