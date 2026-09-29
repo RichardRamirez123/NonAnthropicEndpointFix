@@ -1,0 +1,17 @@
+{
+  "name": "third-party-endpoint-doctor",
+  "version": "0.1.0",
+  "description": "Diagnoses and fixes stalled tool calls on Claude Code when ANTHROPIC_BASE_URL points at a non-Anthropic endpoint such as DeepSeek, OpenRouter, or a gateway.",
+  "license": "MIT",
+  "keywords": [
+    "deepseek",
+    "third-party-endpoint",
+    "anthropic-base-url",
+    "auto-mode",
+    "classifier",
+    "tool-calls-hang",
+    "gateway",
+    "proxy",
+    "diagnostics"
+  ]
+}
